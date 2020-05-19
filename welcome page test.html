@@ -4,6 +4,42 @@
 	<title>
 		Welcome Page
 	</title>
+	<style>
+		#header{
+			background-color: black;
+			text-align: center;
+		}
+		.container2{
+			height: 400px;
+			position: relative;
+			border: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+		.button{
+			border: none;
+			color: white;
+			margin: 10px;
+			padding: 16px 32px;
+			text-align: center;
+			font-size: 16px;
+			transition-duration: 0.3s;
+			display: inline-block;
+			cursor: pointer;
+		}
+		.button1{
+			background-color: white;
+			color: black;
+			border: 2px solid #00618a;
+		}
+		.button:hover{
+			background-color:#00618a;
+			color: white; 
+		}
+
+	</style>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -11,10 +47,21 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color: white">
-	<div class="container p-3 my-3">
-		<h1>WELCOME</h1>
-		<p>Welcome to 514Guide</p>
+<body style="background-color: #ff8533">
+	<div class="container" id= "header">
+		<h1 style="color: white">WELCOME</h1>
+		<p style="color: white">Welcome to 514Guide</p>
+		<p style="color: white">A basic Guide to montreal</p>
+	</div>
+	<br>
+	<br>
+	<h1 style="font-family: candara; text-align: center;">Please Select the age group you belong to, in order to surf related content.</h1>
+	<br>
+	<div class="container2">
+		<button class="button button1">Less than 18</button>
+		<button class="button button1">Adults</button>
+		<button class="button button1">Over 60</button>
+		<button class="button button1">Family</button>
 	</div>
 </body>
 </html>
