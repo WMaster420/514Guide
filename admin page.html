@@ -12,6 +12,18 @@
 			height: 100px;
 			width: auto;
 		}
+		.container2{
+			width: 700px;
+			clear: both;
+			padding: 40px;
+		}
+		.container2 input{
+			width: 100%;
+			clear: both;
+		}
+		.content{
+			height: 500px
+		}
 	</style>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,19 +45,26 @@
 			<label>Date</label>
 			<input type="text" name="Date">
 			<br>
-			<label for="image">Image</label>
-			<input type="file" name="image" accept="image/*">
-			<br>
 			<label>Content</label>
-			<input type="text" name="content">
+			<input class="content" type="text" name="content">
 			<br>
 			<label>Location</label>
 			<input type="text" name="Location">
 			<br>
-			<label>Content Relavency</label><br>
+			<label>Content Relavency</label>
 			<input type="checkbox" id="Less-than-18">
 			<label for="Less-than-18">Less than 18</label>
-
+			<input type="checkbox" id="Adults">
+			<label for="Adults">Adults</label>
+			<input type="checkbox" id="Over 60">
+			<label for="Over 60">Over 60</label>
+			<input type="checkbox" id="Family">
+			<label for="Family">Family</label>
+			<br>
+			<br>
+			<label for="image">Image</label>
+			<input type="file" name="image" accept="image/*">
 		</form>
 	</div>
 </body>
+</html>
