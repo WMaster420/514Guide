@@ -17,12 +17,47 @@
 			clear: both;
 			padding: 40px;
 		}
+		.nav{
+			color: white;
+			margin: 10px;
+			padding: 8px 16px;
+			text-align: center;
+			font-size: 16px;
+			transition-duration: 0.3s;
+			display: inline-block;
+			cursor: pointer;
+		}
+		.nav1{
+			background-color: white;
+			color: black;
+			border: 2px solid #00618a;
+		}
+		.nav:hover{
+			background-color:#00618a;
+			color: white;
+		}
+		.container3{
+			position: relative;
+			border: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 		.container2 input{
 			width: 100%;
 			clear: both;
 		}
 		.content{
 			height: 500px
+		}
+		.upload{
+			padding: 8px 16px;
+			font-size: 16px;
+			position: relative;
+			border: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 	</style>
 	<meta charset="utf-8">
@@ -36,6 +71,12 @@
 	<div class="container" id="header">
 		<h1>ADMINISTRATOR SECTION</h1>
 	</div>
+	<div class="container3">
+		<button class="nav nav1">Admin Login</button>
+		<button class="nav nav1">Home</button>
+	</div>
+	<br>
+	<hr>
 	<br>
 	<div class="container2">
 		<form>
@@ -64,6 +105,11 @@
 			<br>
 			<label for="image">Image</label>
 			<input type="file" name="image" accept="image/*">
+			<br>
+			<br>
+			<div class="upload">
+			<button>Upload</button>
+		    </div>
 		</form>
 	</div>
 </body>
