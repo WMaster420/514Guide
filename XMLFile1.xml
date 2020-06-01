@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form id="form1" runat="server">
+  <div>
+
+    <table class="style1">
+      <tr>
+        <td align="center" bgcolor="#0099FF">
+          <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True"
+              Font-Names="Algerian" Font-Size="XX-Large" ForeColor="White" Text="Login"></asp:Label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td align="center" class="style2">
+
+          <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Large"
+              ForeColor="#333333" Text="Username"></asp:Label>
+
+        </td>
+        <td class="style2">
+
+          <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+
+        </td>
+      </tr>
+      <tr>
+        <td align="center" class="style2">
+
+          <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="Large"
+              ForeColor="#333333" Text="Password"></asp:Label>
+
+        </td>
+        <td class="style2">
+
+          <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+
+        </td>
+      </tr>
+      <tr>
+        <td class="style2">
+
+          &nbsp;
+        </td>
+        <td class="style2">
+
+          <asp:Button ID="Button1" runat="server" Font-Bold="True" Font-Italic="True"
+              Font-Names="Times New Roman" Font-Size="Large" onclick="Button1_Click"
+              Text="Login" />
+
+        </td>
+      </tr>
+    </table>
+
+  </div>
+</form>
