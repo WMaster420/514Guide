@@ -66,7 +66,6 @@
 			background-color:#00618a;
 			color: white; 
 		}
-
 	</style>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -75,7 +74,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color: #ff8533">
+<body style="background-color: #EBEDEF">
 	<div class="container" id= "header">
 		<h1 style="color: white; font-family: candara; font-size: 45px;">514Guide</h1>
 		<p style="color: white; font-family: candara;">A basic Guide to the city of montreal</p>
@@ -90,10 +89,16 @@
 	<h1 style="font-family: candara; text-align: center;">Please Select the category that applies to you, in order to surf related content.</h1>
 	<br>
 	<div class="container2">
-		<button class="button button1" onclick="document.location='less than 18.html'">Less than 18</button>
-		<button class="button button1" onclick="document.location='adult.html'">Adults</button>
-		<button class="button button1" onclick="document.location='over 60.html'">Over 60</button>
-		<button class="button button1" onclick="document.location='family.html'">Family</button>
-	</div>
+		<div class="teen">
+			<ul>
+				<a><img src="child.gif" style="width:250px;height:400px;" onclick="document.location='less than 18.html'"></a>
+				<div class="overlay">Less than 18</div>
+				<img src="leo.gif" style="width:250px;height:400px;" onclick="document.location='adult.html'">
+				<div class="overlay">Adults</div>
+				<img src="lore.gif" style="width:250px;height:400px;" onclick="document.location='over 60.html'">
+				<div class="overlay">Over 60</div>
+				<img src="fam.gif" style="width:270px;height:400px;" onclick="document.location='family.html'">
+				<div class="overlay">Family</div>
+			</ul>
 </body>
 </html>
